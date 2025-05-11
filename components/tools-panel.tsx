@@ -7,6 +7,7 @@ import PanelConfig from "./panel-config";
 import useToolsStore from "@/stores/useToolsStore";
 
 export default function ContextPanel() {
+  return null;
   const {
     fileSearchEnabled,
     setFileSearchEnabled,
