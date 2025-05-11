@@ -19,6 +19,6 @@ Hi, how can I help you?
 `;
 
 export const defaultVectorStore = {
-  id: "",
-  name: "Example",
+  id: "vs_681e26fac5fc81918bbb86b8d43f52a5",
+  name: "vsADRs",
 };
