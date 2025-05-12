@@ -106,7 +106,18 @@ Use **mTLS authentication** and **OAuth 2.0 sender-constrained tokens** to allow
 
 // Initial message that will be displayed in the chat
 export const INITIAL_MESSAGE = `
-Hi, how can I help you?
+**Welcome to the Kong Architecture Advisor** brought to you by Kong Professional Services!
+
+Ask me anything about Kong architecture best practices.
+My knowledge is based on the Kong Architecture Decision Records (ADR).
+Go to the [ADR repository](https://github.com/KongHQ-CX/architecture-decision-records) if you want to learn more
+about Kong ADRs and how to contribute.
+
+To get started, you can ask me things like:
+
+- How can I implement secure mutual authentication between two Kong Gateways?
+- What are the best practices for deploying Kong Gateway on Kubernetes?
+- How can I use the Kong AI Gateway to save costs?
 `;
 
 export const defaultVectorStore = {
