@@ -106,7 +106,7 @@ Use **mTLS authentication** and **OAuth 2.0 sender-constrained tokens** to allow
 
 // Initial message that will be displayed in the chat
 export const INITIAL_MESSAGE = `
-**Welcome to the Kong Architecture Advisor** brought to you by Kong Professional Services!
+**Welcome to the Kong Well-Architected Advisor** brought to you by Kong Professional Services!
 
 Ask me anything about Kong architecture best practices.
 My knowledge is based on the Kong Architecture Decision Records (ADR).
