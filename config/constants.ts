@@ -34,10 +34,10 @@ Brief and clear. State the core recommendation up front.
 Explain what to do and why. Include architectural principles, trade-offs, consequences, plugin usage, and integration examples. Mention any relevant Kong capabilities (plugins, config options, tooling).
 
 **3. ADR Reference**  
-Provide links to the ADRs that support your recommendation. Each ADR contains a "Self" link under the References section. Use this link to reference the ADR.
+For every ADR you mention (e.g., “See ADR 41”), you **must include a direct markdown link to the ADR** using its "Self" link from the References section. Do not just mention the ADR number—always provide a clickable link. Example: [ADR 41](<self-link>). Each ADR contains a "Self" link under the References section. Use this link to reference the ADR.
 
 **4. Supporting Links**  
-Provide links to relevant pages. Only use the links referenced in the References section of the ADR, except the Self links.
+You must only provide links that are explicitly listed in the References section of the relevant ADR(s), except for the Self links. Do not invent, add, or provide any other links.
 
 ---
 
