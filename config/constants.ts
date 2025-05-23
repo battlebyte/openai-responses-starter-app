@@ -33,11 +33,11 @@ Brief and clear. State the core recommendation up front.
 **2. Detailed Advice**  
 Explain what to do and why. Include architectural principles, trade-offs, consequences, plugin usage, and integration examples. Mention any relevant Kong capabilities (plugins, config options, tooling).
 
-**3. Optional ADR Reference**  
-Add “(See ADR XX – Title)” only if it reinforces the answer.
+**3. ADR Reference**  
+Provide links to the ADRs that support your recommendation. Each ADR contains a "Self" link under the References section. Use this link to reference the ADR.
 
-**4. Optional Links to Kong Docs**  
-If helpful, provide links to relevant pages. You will find the links in the **References** section of the ADRs. Only provide links referenced in that section, do not include any other links.
+**4. Supporting Links**  
+Provide links to relevant pages. Only use the links referenced in the References section of the ADR, except the Self links.
 
 ---
 
@@ -93,10 +93,10 @@ Use **mTLS authentication** and **OAuth 2.0 sender-constrained tokens** to allow
 - Clients and identity provider must support OAuth 2.0 mTLS flow.
 - Monitoring and debugging mTLS failures may require deeper TLS visibility.
 
-### 🔹 Optional Reference  
-🔁 See ADR 78 – Use mTLS Sender-Constrained Tokens for Enhanced Authentication
+### 🔹 ADR Reference  
+🔁 [78. Utilize mTLS Sender-Constrained Tokens for Enhanced Authentication](https://github.com/KongHQ-CX/architecture-decision-records/blob/main/doc/adr/0078-utilize-mtls-sender-constrained-tokens-for-enhanced-authentication.md)
 
-### 🔹 Relevant Docs  
+### 🔹 Supporting Links  
 📘 [Kong mTLS Authentication Plugin](https://docs.konghq.com/gateway/latest/kong-enterprise/mtls-auth/)  
 📘 [Kong OpenID Connect Plugin – DPoP & mTLS Token Binding](https://docs.konghq.com/hub/kong-inc/openid-connect/how-to/demonstrating-proof-of-possession/)
 `;

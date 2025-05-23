@@ -35,7 +35,7 @@ const Chat: React.FC<ChatProps> = ({ items, onSendMessage }) => {
 
   return (
     <div className="flex justify-center items-center size-full bg-background text-foreground">
-      <div className="flex grow flex-col h-full max-w-[750px] gap-2 bg-background text-foreground border-l border-r border-[#23262B]">
+      <div className="flex grow flex-col h-full max-w-[1200px] gap-2 bg-background text-foreground border-l border-r border-[#23262B]">
         <div className="h-[90vh] overflow-y-scroll px-10 flex flex-col">
           <div className="mt-auto space-y-5 pt-4">
             {items.map((item, index) => (

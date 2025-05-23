@@ -14,10 +14,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Responses starter app",
-  description: "Starter app for the OpenAI Responses API",
+  title: "Kong Well-Architected Advisor",
+  description: "Advisor tool for Kong architecture best practices",
   icons: {
-    icon: "/openai_logo.svg",
+    icon: "https://konghq.com/favicon.ico",
   },
 };
 
